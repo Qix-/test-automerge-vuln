@@ -1,0 +1,15 @@
+name: Push
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test
+        shell: bash
+        run: |
+          echo "Testing"
