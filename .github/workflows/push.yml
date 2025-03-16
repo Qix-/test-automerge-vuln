@@ -13,3 +13,4 @@ jobs:
         shell: bash
         run: |
           echo "Testing"
+          sleep 120
