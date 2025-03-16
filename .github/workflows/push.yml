@@ -13,3 +13,4 @@ jobs:
         shell: bash
         run: |
           echo "Testing"
+          echo "Test OK!
